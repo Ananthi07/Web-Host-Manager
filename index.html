@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web Host Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Web Host Manager</h1>
+    <form id="clientForm">
+      <input type="text" id="name" placeholder="Client Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="text" id="domain" placeholder="Hosting Domain" required />
+      <button type="submit">Add Client</button>
+    </form>
+    <h2>Client List</h2>
+    <div id="clientList"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
